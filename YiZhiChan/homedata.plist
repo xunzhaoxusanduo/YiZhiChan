@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>section</key>
+		<integer>0</integer>
+		<key>type</key>
+		<string>tuijiandianying</string>
+		<key>hide</key>
+		<false/>
+		<key>content</key>
+		<dict>
+			<key>title</key>
+			<string></string>
+			<key>picture_urls</key>
+			<array/>
+			<key>yingyuan_array</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string></string>
+					<key>address</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<dict>
+		<key>section</key>
+		<integer>1</integer>
+		<key>type</key>
+		<string>xinyingxun</string>
+		<key>content</key>
+		<dict>
+			<key>title</key>
+			<string></string>
+			<key>yingpian</key>
+			<array>
+				<dict>
+					<key>picture</key>
+					<string></string>
+					<key>name</key>
+					<string></string>
+					<key>detail</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</array>
+</plist>
