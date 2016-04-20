@@ -40,6 +40,7 @@ static NSString *const CellReuseIdentify = @"LXSuspenditemViewCell";
             }else {
                 LXSuspenditem *item = [[LXSuspenditem alloc] init];
                 item.title = [NSString stringWithFormat:@"%dtext", i];
+                item.imageName = @"search";
                 item.type = LXSuspenditemTypeEntity;
                 [_dataArray addObject:item];
             }
@@ -98,7 +99,7 @@ static NSString *const CellReuseIdentify = @"LXSuspenditemViewCell";
 
 - (void)setupCollectionView {
     LXReorderableCollectionViewFlowLayout *flowLayout = [[LXReorderableCollectionViewFlowLayout alloc] init];
-    flowLayout.itemSize = CGSizeMake(100, 100);
+    flowLayout.itemSize = CGSizeMake(80, 80);
     flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.height)
